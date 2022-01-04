@@ -126,7 +126,7 @@ Checkings -Warning
 
 # Create a restore point
 # Создать точку восстановления
-CreateRestorePoint
+# CreateRestorePoint
 #endregion Protection
 
 #region Privacy & Telemetry
@@ -334,11 +334,11 @@ FileTransferDialog -Detailed
 
 # Expand the File Explorer ribbon
 # Развернуть ленту проводника
-FileExplorerRibbon -Expanded
+# FileExplorerRibbon -Expanded
 
 # Minimize the File Explorer ribbon (default value)
 # Свернуть ленту проводника (значение по умолчанию)
-# FileExplorerRibbon -Minimized
+FileExplorerRibbon -Minimized
 
 # Display the recycle bin files delete confirmation dialog
 # Запрашивать подтверждение на удаление файлов в корзину
@@ -752,7 +752,7 @@ InputMethod -English
 	Пользовательские файлы и папки не будут перемещены в новое расположение. Переместите их вручную
 	По умолчанию они располагаются в папке %USERPROFILE%
 #>
-SetUserShellFolderLocation -Root
+# SetUserShellFolderLocation -Root
 
 <#
 	Select folders for user folders location manually using a folder browser dialog
@@ -1062,7 +1062,7 @@ XboxGameTips -Disable
 
 # Choose an app and set the "High performance" graphics performance for it. Only if you have a dedicated GPU
 # Выбрать приложение и установить для него параметры производительности графики на "Высокая производительность". Только при наличии внешней видеокарты
-SetAppGraphicsPerformance
+# SetAppGraphicsPerformance
 
 <#
 	Turn on hardware-accelerated GPU scheduling. Restart needed
@@ -1344,7 +1344,7 @@ SendToContext -Hide
 
 # Hide the "Turn on BitLocker" item from the drives context menu
 # Скрыть пункт "Включить BitLocker" из контекстного меню дисков
-BitLockerContext -Hide
+# BitLockerContext -Hide
 
 # Show the "Turn on BitLocker" item in the drives context menu (default value)
 # Отобразить пункт "Включить BitLocker" в контекстном меню дисков (значение по умолчанию)
