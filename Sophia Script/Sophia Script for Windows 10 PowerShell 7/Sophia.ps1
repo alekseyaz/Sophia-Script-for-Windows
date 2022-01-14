@@ -390,7 +390,7 @@ PeopleTaskbar -Hide
 
 # Show seconds on the taskbar clock
 # Отобразить секунды в системных часах на панели задач
-SecondsInSystemClock -Show
+# SecondsInSystemClock -Show
 
 # Hide seconds on the taskbar clock (default value)
 # Скрыть секунды в системных часах на панели задач (значение по умолчанию)
@@ -398,11 +398,11 @@ SecondsInSystemClock -Show
 
 # Hide the search on the taskbar
 # Скрыть поле или значок поиска на панели задач
-TaskbarSearch -Hide
+# TaskbarSearch -Hide
 
 # Show the search icon on the taskbar
 # Показать значок поиска на панели задач
-# TaskbarSearch -SearchIcon
+TaskbarSearch -SearchIcon
 
 # Show the search box on the taskbar (default value)
 # Показать поле поиска на панели задач (значение по умолчанию)
@@ -418,7 +418,7 @@ WindowsInkWorkspace -Hide
 
 # Always show all icons in the notification area
 # Всегда отображать все значки в области уведомлений
-NotificationAreaIcons -Show
+# NotificationAreaIcons -Show
 
 # Hide all icons in the notification area (default value)
 # Скрыть все значки в области уведомлений (значение по умолчанию)
